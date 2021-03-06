@@ -1,0 +1,37 @@
+.ces{
+    border: 2px solid orange;
+    display: flex;
+    position: relative;
+    width:100px;
+    height: 100px;
+    text-align: center;
+    margin-left: 50%;
+    margin-top:150px;
+    animation-name: turn;
+    animation-duration: 5s;
+    padding-top:15px;
+    animation-iteration-count: 5 ;
+    border-radius: 75%;
+    box-shadow: 10px 10px 15px grey;
+
+
+}
+@keyframes turn{
+    0% {background-color:rgb(78, 114, 124);
+        left:0px; top:0px;}
+    25% {background-color: rgb(87, 15, 69);
+        left:150px; top:0px;}
+    50% {background-color:green;
+        left:150px; top:150px;}
+    75% {background-color:rgb(128, 94, 0);
+        left:0px; top:150px;}
+    100% { background-color:rgb(78, 114, 124);
+        left:0px; top:0px;}
+}
+
+p{
+    background-color: rgb(83, 74, 62);
+    font-size: 30px;
+    text-align: center;
+    color:antiquewhite;
+}
